@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import logo from './ENHANCEDREDWHITEWITHAFRICA'
 
 export default function Home() {
   return (
@@ -15,10 +14,10 @@ export default function Home() {
           Welcome to Jasags Creative Media Group LLC!
         </h1>
 
-        return <img src={logo} alt="Logo" />;
+        <img className={styles.logo2} src="/enhancedredwhitewithafrica.png" alt="Logo" />;
 
         <p className={styles.description}>
-          Powered by Next.js
+          Created with Next.js
         </p>
 
         <div className={styles.grid}>

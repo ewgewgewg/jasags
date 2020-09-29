@@ -60,6 +60,7 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+  font-style: italic;
 }
 
 .code {
@@ -113,6 +114,10 @@
 
 .logo {
   height: 1em;
+}
+
+.logo2 {
+  height: 10em;
 }
 
 @media (max-width: 600px) {
