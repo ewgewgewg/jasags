@@ -14,7 +14,7 @@ export default function Home() {
           Jasags Creative Media Group LLC
         </h1>
 
-        <img className={styles.logo2} src="/enhancedredwhitewithafrica.png" alt="Logo" />;
+        <img className={styles.logo2} src="/enhancedredwhitewithafrica.png" alt="Logo" />
       </main>
 
       <footer className={styles.footer}>
