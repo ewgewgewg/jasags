@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
 
-  const words = ["spoken","writen","thought"]
+  const words = ["spoken","written","thought"]
   const [index, setIndex] = useState(Math.floor(Math.random())*3)
 
   useEffect(() => {
