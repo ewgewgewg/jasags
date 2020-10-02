@@ -1,7 +1,19 @@
 import Head from 'next/head'
+import { useState, useEffect } from 'react'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
+  const words = ["spoken","writen","thought"]
+  const [index, setIndex] = useState(Math.floor(Math.random())*3)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex(Math.floor(Math.random()*3))
+    }, 5000)
+    return () => clearInterval(interval)
+  }, [])
+
   return (
     <div className={styles.container}>
       <Head>
@@ -15,6 +27,8 @@ export default function Home() {
         </h1>
 
         <img className={styles.logo2} src="/enhancedredwhitewithafrica.png" alt="Logo" />
+        <div className={styles.butre}></div>
+  <p className={styles.butreText}>The {words[index]} word</p>
       </main>
 
       <footer className={styles.footer}>

@@ -46,12 +46,6 @@
   text-decoration: underline;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
 .title,
 .description {
   text-align: center;
@@ -116,8 +110,33 @@
   height: 1em;
 }
 
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
 .logo2 {
   height: 10em;
+}
+
+.butre {
+  height: 30em;
+  width: 100%;
+  background-size:cover;
+  background-attachment:fixed;
+  background-image:url('/butre.jpg');
+  margin: 0;
+  opacity: 50%;
+}
+
+.butreText {
+  line-height: 1.15;
+  font-size: 3rem;
+  color: black;
+  margin-top: 10rem;
+  padding: 1rem;
+  position: absolute;
 }
 
 @media (max-width: 600px) {
