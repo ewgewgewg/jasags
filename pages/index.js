@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIndex(Math.floor(Math.random() * 3));
+      setIndex(Math.floor(Math.random() * words.length));
     }, 5000);
     return () => clearInterval(interval);
   }, []);
@@ -17,6 +17,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Jasags Creative Media</title>
+        <div>Jasags Creative Media</div>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -29,7 +30,6 @@ export default function Home() {
           alt="Logo"
         />
         <div className={styles.butre}></div>
-        <p className={styles.butreText}>The new {words[index]} word</p>
         <p className={styles.butreText}>The new {words[index]} word</p>
       </main>
 
