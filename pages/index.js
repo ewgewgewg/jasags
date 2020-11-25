@@ -30,6 +30,7 @@ export default function Home() {
         />
         <div className={styles.butre}></div>
         <p className={styles.butreText}>The new {words[index]} word</p>
+        <p className={styles.butreText}>The new {words[index]} word</p>
       </main>
 
       <footer className={styles.footer}>
