@@ -116,6 +116,14 @@
   font-size: 4rem;
 }
 
+.headingBox {
+  display: flex;
+}
+
+.name {
+  height: 15em;
+}
+
 .logo2 {
   height: 10em;
 }
@@ -123,9 +131,9 @@
 .butre {
   height: 30em;
   width: 100%;
-  background-size:cover;
-  background-attachment:fixed;
-  background-image:url('/butre.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("/butre.jpg");
   margin: 0;
   opacity: 50%;
 }
@@ -135,6 +143,7 @@
   font-size: 3rem;
   color: black;
   margin-top: 10rem;
+  margin-left: 3em;
   padding: 1rem;
   position: absolute;
 }

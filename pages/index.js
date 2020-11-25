@@ -17,20 +17,28 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Jasags Creative Media</title>
-        <div>Jasags Creative Media</div>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>Jasags Creative Media Group LLC</h1>
-
-        <img
-          className={styles.logo2}
-          src="/enhancedredwhitewithafrica.png"
-          alt="Logo"
-        />
+        <div className={styles.headingBox}>
+          <img
+            className={styles.name}
+            src="/JASAGScrop.png"
+            alt="Jasags Creative Media Group"
+          />
+          <img
+            className={styles.logo2}
+            src="/orangewithafrica.png"
+            alt="Logo"
+          />
+        </div>
         <div className={styles.butre}></div>
-        <p className={styles.butreText}>The new {words[index]} word</p>
+        <p className={styles.butreText}>
+          Jasags Creative Media Group LLC is dedicated to the {words[index]}{" "}
+          word
+        </p>
       </main>
 
       <footer className={styles.footer}>
